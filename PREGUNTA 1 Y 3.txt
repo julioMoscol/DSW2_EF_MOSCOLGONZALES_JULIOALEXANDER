@@ -1,0 +1,40 @@
+PREGUNTA 1:
+
+
+La empresa seleccionada para este proyecto es Callao Pets, una microempresa dedicada a la venta de productos para mascotas. 
+Esta empresa busca mejorar sus procesos internos, tales como la gestión de inventarios y el proceso de ventas, mediante la implementación 
+de una tienda virtual y un sistema de gestión de productos, lo que permitirá aumentar su productividad y brindar un mejor servicio a sus clientes.
+
+
+
+
+PREGUNTA 3:
+
+
+----uso del cache en la tabla en animal, para consultar por nombre de animal
+
+
+Rendimiento Mejorado: Las consultas por nombre de animal pueden ser frecuentes, y almacenar los resultados en caché reduce la necesidad de acceder a la base de datos repetidamente, mejorando la velocidad de respuesta del sistema.
+
+Reducción de Carga en la Base de Datos: Al almacenar en caché las consultas más solicitadas, se disminuye la carga en la base de datos, lo que puede resultar en un rendimiento más estable y menos tiempo de inactividad.
+
+Mejor Experiencia del Usuario: Los tiempos de respuesta más rápidos mejoran la experiencia del cliente al realizar búsquedas, facilitando su navegación y compra en la tienda online.
+
+
+
+----uso del cache en la tabla clientes, para consultar por dni que comience con el numero que se digite
+
+
+Optimización de Consultas: Las búsquedas que filtran por el inicio del DNI son operaciones comunes. Al utilizar caché, los resultados pueden ser recuperados rápidamente sin necesidad de realizar una nueva consulta a la base de datos.
+
+Mejora en la Eficiencia: Al reducir el tiempo necesario para recuperar datos, se mejora la eficiencia del sistema en general, permitiendo que el personal y los clientes accedan a la información de manera más fluida.
+
+Aumento en la Productividad: Con una recuperación de datos más rápida, el personal puede gestionar las consultas de clientes de forma más efectiva, contribuyendo al objetivo de aumentar la productividad del negocio.
+
+
+
+-----uso del caché en la tabla proveedores para consultar por RUC
+
+
+
+debido a que el ruc es unico para que empresa ayuda a que las consultas por este campo se realicen con frecuencia en el sistema. Utilizar caché para almacenar los resultados de estas consultas permite acceder rápidamente a la información de los proveedores, lo que optimiza las operaciones de búsqueda y mejora la experiencia del usuario al minimizar el tiempo de espera. Además, reduce la carga en la base de datos, lo que es beneficioso para el rendimiento general del sistema.

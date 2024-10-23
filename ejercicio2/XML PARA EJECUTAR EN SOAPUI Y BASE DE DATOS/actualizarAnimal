@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:obj="http://www.ejercicio2/ws/objects">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <obj:postAnimalRequest>
+         <obj:animal>
+            <obj:idanimal>2</obj:idanimal>
+            <obj:descanimal>Peces pero muy raros</obj:descanimal>
+         </obj:animal>
+      </obj:postAnimalRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

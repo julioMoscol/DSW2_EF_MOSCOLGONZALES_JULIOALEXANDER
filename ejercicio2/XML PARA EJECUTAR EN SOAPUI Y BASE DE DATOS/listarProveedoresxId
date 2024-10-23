@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:obj="http://www.ejercicio2/ws/objects">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <obj:getProveedorxIdRequest>
+         <obj:id>3</obj:id>
+      </obj:getProveedorxIdRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

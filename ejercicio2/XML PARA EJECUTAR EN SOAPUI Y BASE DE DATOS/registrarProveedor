@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:obj="http://www.ejercicio2/ws/objects">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <obj:postProveedorRequest>
+         <obj:proveedor>
+            <obj:idproveedor>?</obj:idproveedor>
+            <obj:telefono>987654321</obj:telefono>
+            <obj:direccion>ventanilla</obj:direccion>
+            <obj:empresa>moscol s.a.c.</obj:empresa>
+            <obj:ruc>20345637482</obj:ruc>
+            <obj:correo>moscol@gmail.com</obj:correo>
+            <obj:representante>Julio Moscol</obj:representante>
+         </obj:proveedor>
+      </obj:postProveedorRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

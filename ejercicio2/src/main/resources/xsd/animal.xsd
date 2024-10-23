@@ -1,0 +1,51 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.ejercicio2/ws/objects"
+           targetNamespace="http://www.ejercicio2/ws/objects"
+           elementFormDefault="qualified">
+    <xs:complexType name="animalws">
+        <xs:sequence>
+            <xs:element name="idanimal" type="xs:int"/>
+            <xs:element name="descanimal" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="getAnimalRequest">
+        <xs:complexType>
+            <xs:sequence />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getAnimalResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="animal" type="tns:animalws" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getAnimalxIdRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getAnimalxIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="animal" type="tns:animalws"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="postAnimalRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="animal" type="tns:animalws"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="postAnimalResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="animal" type="tns:animalws"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

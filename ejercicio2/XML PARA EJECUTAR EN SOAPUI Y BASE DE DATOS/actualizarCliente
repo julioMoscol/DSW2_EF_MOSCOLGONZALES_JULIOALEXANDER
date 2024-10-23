@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:obj="http://www.ejercicio2/ws/objects">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <obj:postClientesRequest>
+         <obj:clientes>
+            <obj:idclientes>11</obj:idclientes>
+            <obj:nomclientes>Charlie Brown</obj:nomclientes>
+            <obj:apeclientes>Moscol Gonzales</obj:apeclientes>
+            <obj:dniclientes>75117449</obj:dniclientes>
+            <obj:telfclientes>983456786</obj:telfclientes>
+            <obj:corrclientes>julio@gmail.com</obj:corrclientes>
+            <obj:dirclientes>mi peru</obj:dirclientes>
+         </obj:clientes>
+      </obj:postClientesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

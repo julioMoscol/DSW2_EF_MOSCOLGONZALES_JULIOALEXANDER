@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.22 a las 10:16:17 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.ejercicio2/ws/objects">
+    <schemaBindings map="false">
+      <package name="ejercicio2.ws.objects"/>
+    </schemaBindings>
+    <bindings scd="tns:getClientesRequest">
+      <class ref="ejercicio2.ws.objects.GetClientesRequest"/>
+    </bindings>
+    <bindings scd="tns:getClientesResponse">
+      <class ref="ejercicio2.ws.objects.GetClientesResponse"/>
+    </bindings>
+    <bindings scd="~tns:clientesws">
+      <class ref="ejercicio2.ws.objects.Clientesws"/>
+    </bindings>
+    <bindings scd="tns:getClientesxIdRequest">
+      <class ref="ejercicio2.ws.objects.GetClientesxIdRequest"/>
+    </bindings>
+    <bindings scd="tns:getClientesxIdResponse">
+      <class ref="ejercicio2.ws.objects.GetClientesxIdResponse"/>
+    </bindings>
+    <bindings scd="tns:postClientesRequest">
+      <class ref="ejercicio2.ws.objects.PostClientesRequest"/>
+    </bindings>
+    <bindings scd="tns:postClientesResponse">
+      <class ref="ejercicio2.ws.objects.PostClientesResponse"/>
+    </bindings>
+    <bindings scd="tns:getProveedorRequest">
+      <class ref="ejercicio2.ws.objects.GetProveedorRequest"/>
+    </bindings>
+    <bindings scd="tns:getProveedorResponse">
+      <class ref="ejercicio2.ws.objects.GetProveedorResponse"/>
+    </bindings>
+    <bindings scd="~tns:proveedorws">
+      <class ref="ejercicio2.ws.objects.Proveedorws"/>
+    </bindings>
+    <bindings scd="tns:getProveedorxIdRequest">
+      <class ref="ejercicio2.ws.objects.GetProveedorxIdRequest"/>
+    </bindings>
+    <bindings scd="tns:getProveedorxIdResponse">
+      <class ref="ejercicio2.ws.objects.GetProveedorxIdResponse"/>
+    </bindings>
+    <bindings scd="tns:postProveedorRequest">
+      <class ref="ejercicio2.ws.objects.PostProveedorRequest"/>
+    </bindings>
+    <bindings scd="tns:postProveedorResponse">
+      <class ref="ejercicio2.ws.objects.PostProveedorResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
